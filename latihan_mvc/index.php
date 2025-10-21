@@ -1,6 +1,8 @@
-<?php
-require_once "./controller/BukuController.php";
-
-$controller = new BukuController();
-$controller->tampilkanBuku();
-?>
+<?php 
+require_once "controller.php"; 
+ 
+// Buat controller 
+$controller = new ProdukController(); 
+ 
+// Jalankan method index 
+$controller->index(); 
